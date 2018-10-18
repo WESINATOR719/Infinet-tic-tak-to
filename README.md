@@ -1,5 +1,6 @@
 # Infinet-tic-tak-to
- void check_for_wins(){
+
+void check_for_wins(){
         const char" winning_[8] = {
             "123"
             "456"

@@ -55,7 +55,24 @@ void check_for_wins(){
               if ( winner ){
                    puts("************* We have a winner! ************");
                    printf("looks like %c won, congratulations!\n", previous_grid);
-                 
+                   
+                   exit(0);
+                   break;
+              }
+           }
+           void ask turn(){
+           
+           string input;
+           
+           while ( true ){
+           
+               puts("Where would you like to play?");
+               getline(cin, input);
+               
+               if ( input != '' ){
+                  char entered = input.c-str()[0];
+                  
+                  if ( 
      void show_grid(){
           printf("------------\n")
 char grid - Char = grid [row][cor];

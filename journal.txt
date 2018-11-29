@@ -1,0 +1,7 @@
+11.29
+After thinking about how to get Linux working for a few weeks, I decided to see if I can get the same functionality from Windows Command Prompt.
+So far so good, just waiting on the GCC to download. 
+Excited to finally get the tic tac toe game working. 
+To troubleshoot, we found super user to be helpful, then ultimately found ourselves on a stack overflow post: 
+https://stackoverflow.com/questions/11365850/run-c-in-command-prompt-windows 
+

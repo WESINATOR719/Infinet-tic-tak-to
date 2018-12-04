@@ -1,3 +1,5 @@
+import requests
+
 .intel_syntax noprefix
 
 .bits 32
@@ -40,4 +42,11 @@ ret addr
 
 ebp
 
-local variablesimport pwn
+local variables
+
+import re
+import request
+
+url = 'http://2018shell2.picoctf.com:52920/flag'
+
+r = requests.get(url), cookies
